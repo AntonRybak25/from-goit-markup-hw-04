@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="./styles/styles.css" />
     <title>Portfolio</title>
   </head>
+
   <body>
     <!--Header section-->
     <header class="header">
@@ -40,13 +41,18 @@
         </nav>
         <ul class="contacts">
           <li class="contacts-item">
-            <a class="contacts-link" href="mailto:info@devstudio.com"
+            <a class="contacts-link" href="mailto:info@devstudio.com">
+              <svg class="contacts-icon" width="16" height="12">
+                <use href="./images/icons.svg#icon-envelope-hover"></use></svg
               >info@devstudio.com</a
             >
           </li>
           <li class="contacts-item">
-            <a class="contacts-link" href="tel:+380961111111"
-              >+38 096 111 11 11</a
+            <a class="contacts-link" href="tel:+380961111111">
+              <svg class="contacts-icon" width="10" height="16">
+                <use href="./images/icons.svg#icon-Vector"></use>
+              </svg>
+              +38 096 111 11 11</a
             >
           </li>
         </ul>
@@ -103,8 +109,8 @@
                     Постер New Orlean vs Golden Star
                   </h2>
                   <span class="projects-type">Дизайн</span>
-                </div></a
-              >
+                </div>
+              </a>
             </li>
             <li class="item">
               <a class="projects-link" href=""
@@ -117,8 +123,8 @@
                 <div class="desc">
                   <h2 class="projects-name">Ресторан Seafood</h2>
                   <span class="projects-type">Приложение</span>
-                </div></a
-              >
+                </div>
+              </a>
             </li>
             <li class="item">
               <a class="projects-link" href=""
@@ -131,8 +137,8 @@
                 <div class="desc">
                   <h2 class="projects-name">Проект Prime</h2>
                   <span class="projects-type">Маркетинг</span>
-                </div></a
-              >
+                </div>
+              </a>
             </li>
             <li class="item">
               <a class="projects-link" href=""
@@ -145,8 +151,8 @@
                 <div class="desc">
                   <h2 class="projects-name">Проект Boxes</h2>
                   <span class="projects-type">Приложение</span>
-                </div></a
-              >
+                </div>
+              </a>
             </li>
             <li class="item">
               <a class="projects-link" href=""
@@ -159,8 +165,8 @@
                 <div class="desc">
                   <h2 class="projects-name">Inspiration has no Borders</h2>
                   <span class="projects-type">Веб-сайт</span>
-                </div></a
-              >
+                </div>
+              </a>
             </li>
             <li class="item">
               <a class="projects-link" href=""
@@ -173,8 +179,8 @@
                 <div class="desc">
                   <h2 class="projects-name">Издание Limited Edition</h2>
                   <span class="projects-type">Дизайн</span>
-                </div></a
-              >
+                </div>
+              </a>
             </li>
             <li class="item">
               <a class="projects-link" href="">
@@ -187,8 +193,8 @@
                 <div class="desc">
                   <h2 class="projects-name">Проект LAB</h2>
                   <span class="projects-type">Маркетинг</span>
-                </div></a
-              >
+                </div>
+              </a>
             </li>
             <li class="item">
               <a class="projects-link" href=""
@@ -201,8 +207,8 @@
                 <div class="desc">
                   <h2 class="projects-name">Growing Business</h2>
                   <span class="projects-type">Приложение</span>
-                </div></a
-              >
+                </div>
+              </a>
             </li>
           </ul>
         </div>
@@ -210,17 +216,75 @@
     </main>
     <!-- Footer -->
     <footer class="footer">
-      <div class="container">
-        <a class="logo" href="./index.html"
-          >Web<span class="logo-part">Studio</span></a
-        >
-        <address>
-          <p class="physical-address">г. Киев, пр-т Леси Украинки, 26</p>
-          <a class="web-address" href="mailto:info@example.com"
-            >info@example.com</a
-          ><br />
-          <a class="web-address" href="tel:+380991111111">+38 099 111 11 11</a>
-        </address>
+      <div class="container flex-footer">
+        <div class="address">
+          <a class="logo" href="./index.html"
+            >Web<span class="logo-part">Studio</span></a
+          >
+          <address>
+            <p class="physical-address">г. Киев, пр-т Леси Украинки, 26</p>
+            <br />
+            <a class="web-address" href="mailto:info@example.com"
+              >info@example.com</a
+            ><br />
+            <a class="web-address" href="tel:+380991111111"
+              >+38 099 111 11 11</a
+            >
+          </address>
+        </div>
+        <div class="subscribe">
+          <b class="join">Присоединяйтесь</b>
+          <ul class="social-list">
+            <li class="item">
+              <a
+                class="social-link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="social-icon" width="20" height="20">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="item">
+              <a
+                class="social-link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="social-icon" width="20" height="20">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="item">
+              <a
+                class="social-link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="social-icon" width="20" height="20">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="item">
+              <a
+                class="social-link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="social-icon" width="20" height="20">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>
